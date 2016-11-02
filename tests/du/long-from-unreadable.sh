@@ -61,7 +61,7 @@ dir=$(printf '%200s\n' ' '|tr ' ' x)
 cwd=$(pwd)
 # Use perl instead:
 $PERL \
-    -e 'my $d = '$dir'; foreach my $i (1..52)' \
+    -e 'my $d = '$dir'; foreach my $i (1..40)' \
     -e '  { mkdir ($d, 0700) && chdir $d or die "$!" }' \
   || framework_failure_
 
