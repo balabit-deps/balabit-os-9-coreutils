@@ -1,3 +1,12 @@
+coreutils (8.32-4.1ubuntu1.1) jammy; urgency=medium
+
+  * d/p/assure-new-macro-affirm.patch,
+    d/p/tail-fix-tailing-sysfs-files-where-PAGE_SIZE-BUFSIZ.patch:
+    Fix tailing of sysfs files on systems using a 64K page size.
+    (LP: #2047450)
+
+ -- dann frazier <dann.frazier@canonical.com>  Mon, 08 Jan 2024 07:56:36 -0700
+
 coreutils (8.32-4.1ubuntu1) jammy; urgency=medium
 
   * Merge with Debian; remaining changes:
