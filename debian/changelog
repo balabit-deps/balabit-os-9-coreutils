@@ -1,3 +1,9 @@
+coreutils (8.32-4.1ubuntu1.1bb1) jammy; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Wed, 14 Feb 2024 11:24:50 +0100
+
 coreutils (8.32-4.1ubuntu1.1) jammy; urgency=medium
 
   * d/p/assure-new-macro-affirm.patch,
