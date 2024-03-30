@@ -1,3 +1,9 @@
+coreutils (8.32-4.1ubuntu1.2bb1) jammy; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Sat, 30 Mar 2024 03:27:36 +0000
+
 coreutils (8.32-4.1ubuntu1.2) jammy; urgency=medium
 
   * Fix an issue where running 'ls -l' on an autofs mount with
