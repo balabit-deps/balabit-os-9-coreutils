@@ -1,3 +1,15 @@
+coreutils (8.32-4.1ubuntu1.2) jammy; urgency=medium
+
+  * Fix an issue where running 'ls -l' on an autofs mount with
+    '--ghost' or 'browse_mode=yes' enabled causes the mount to be
+    attempted, even when the underlying storage is not available.
+    This changes behaviour of ls back to what it was previously,
+    before statx was introduced in 8.32. (LP: #2033892)
+    - d/p/lp2033892-01-ls-avoid-triggering-automounts.patch
+    - d/p/lp2033892-02-stat-only-automount-with-cached-never.patch
+
+ -- Matthew Ruffell <matthew.ruffell@canonical.com>  Thu, 08 Feb 2024 16:46:39 +1300
+
 coreutils (8.32-4.1ubuntu1.1bb1) jammy; urgency=medium
 
   * Balabit patched version
