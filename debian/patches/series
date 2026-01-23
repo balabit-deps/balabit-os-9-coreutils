@@ -12,3 +12,4 @@ tail-fix-tailing-sysfs-files-where-PAGE_SIZE-BUFSIZ.patch
 assure-new-macro-affirm.patch
 lp2033892-01-ls-avoid-triggering-automounts.patch
 lp2033892-02-stat-only-automount-with-cached-never.patch
+lp2137373-skip-dirent-inode-sorting-for-lustre.patch

@@ -1,3 +1,14 @@
+coreutils (8.32-4.1ubuntu1.3) jammy; urgency=medium
+
+  * Fix slow performance of 'du' on large directories (>= 10K files)
+    on Lustre filesystems by skipping inode sorting. The default
+    behaviour of sorting dirents by inode numbers negatively impacts
+    performance on Lustre because it interferes with Lustre's ability
+    to prefetch file metadata via statahead. (LP: #2137373)
+    - d/p/lp2137373-skip-dirent-inode-sorting-for-lustre.patch
+
+ -- Munir Siddiqui <munir.siddiqui@canonical.com>  Fri, 23 Jan 2026 15:51:17 +0500
+
 coreutils (8.32-4.1ubuntu1.2) jammy; urgency=medium
 
   * Fix an issue where running 'ls -l' on an autofs mount with
