@@ -1,3 +1,9 @@
+coreutils (8.32-4.1ubuntu1.3bb1) jammy; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Sat, 21 Mar 2026 10:21:02 +0100
+
 coreutils (8.32-4.1ubuntu1.3) jammy; urgency=medium
 
   * Fix slow performance of 'du' on large directories (>= 10K files)
